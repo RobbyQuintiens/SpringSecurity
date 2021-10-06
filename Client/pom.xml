@@ -79,6 +79,9 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <version>${project.parent.version}</version>
+                    <configuration>
+                        <finalName>clientApp</finalName>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.tomcat.maven</groupId>
